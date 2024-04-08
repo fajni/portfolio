@@ -73,6 +73,7 @@
         width: 230px;
         height: 230px;
         margin: 12rem auto 2rem;
+        display: none;
     }
 
     #scene{
@@ -83,6 +84,13 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .section__text{
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 900px){
 }
 
 @media screen and (max-width: 600px) {
@@ -151,5 +159,18 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    #imageProfile.section__pic-container {
+        display: none;
+    }
+
+    #scene{
+        margin-top: 180px;
+        padding-bottom: 90px;
+    }
+
+    .section__text{
+        margin-top: 120px;
     }
 }
