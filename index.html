@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <link rel="stylesheet" href="./css/background.css" />
+</head>
+
+<body>
+
+    <!--BACKGROUND-->
+    <!--
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    -->
+
+    <nav id="desktop-nav">
+        <div class="logo">Veljko Fajnisevic</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Veljko Fajnisevic</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div id="scene">
+        
+        <section id="profile">
+            <div class="section__pic-container" id="imageProfile">
+                <img src="./assets/profile-pic.png" alt="Veljko profile picture" id="profile_picture"/>
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, my name is</p>
+                <h1 class="title">Veljko Fajnisevic</h1>
+                <p class="section__text__p2">Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">View Resume</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/github.png" alt="My Github" class="icon zoom"
+                        onclick="location.href='https://github.com/fajni'" />
+                    <img src="./assets/instagram.png" alt="My Instagram" class="icon zoom"
+                        onclick="location.href='https://www.instagram.com/fajnii/'" />
+                </div>
+            </div>
+        </section>
+
+        <img src="./assets/background/hill1.png" id="img1" class="image"/>
+        <img src="./assets/background/hill2.png" id="img2" class="image"/>
+        <img src="./assets/background/hill3.png" id="img3" class="image"/>
+        <img src="./assets/background/hill4.png" id="img4" class="image"/>
+        <img src="./assets/background/hill5.png" id="img5" class="image"/>
+        <img src="./assets/background/plant.png" id = "plant" class="image"/>
+        <img src="./assets/background/tree.png" id = "tree" class="image"/>
+        
+    </div>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Courses & Certificates</h3>
+                        <p>
+                            MicroTik - MTCNA <i>(2019)</i> <br>
+                            Amazon AWS - Cloud Practitioner <i>(2024 - Present)</i> <br />
+                            Udemy - Angular <i>(2024 - Present)</i>
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <a href="https://mesbor.edu.rs/%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%BD%D0%BE-%D1%88%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0%D1%9A%D0%B5/%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%BC%D1%80%D0%B5%D0%B6%D0%B0/"
+                            style="text-decoration: none;">
+                            <p>High School Diploma, Administrator of computer networks, <br />Serbia<br /><i>(2016 -
+                                    2020)</i></p>
+                        </a>
+                        <a href="http://www.ftn.kg.ac.rs/studije/program/OAS_IT" style="text-decoration: none;">
+                            <p>Banchelor's Degree, Faculty of Technical Science, <br />Serbia<br /><i>(2020 -
+                                    Present)</i></p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                    <p>
+                        At present, I am in the final stages of completing my academic pursuits at the 
+                        Technical Faculty located in Serbia. <br/>
+                        Eager for new knowledge and passionate about discovering solutions.
+                        Consistently prepared to embrace novel challenges within the dynamic landscape 
+                        of Information Technology, while concurrently striving for ongoing enhancements within the sector.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Kotlin</h3>
+                                <p>Basic</p>
+                            </div>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                            &nbsp; &nbsp; &nbsp;
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Spring Boot</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Angular</h3>
+                                <p>Basic</p>
+                            </div>
+                            &nbsp;
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>.NET</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Android Studio</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data bases</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Firebase</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <br/>
+    <section id="projects">
+        <p class="section__text__p1">Browse Some Of My</p>
+        <h1 class="title">Projects</h1>
+
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container zoom">
+                    <div class="article-container">
+                        <img src="./assets/springboot.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Game Room</h2>
+                    <p>
+                        <i>Spring Boot project.</i>
+                        An application that was created to monitor the PCs in the game room.
+                    </p>
+                    <br />
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/fajni/Game_Room'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container zoom">
+                    <div class="article-container">
+                        <img src="./assets/oracle.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Oracle Database</h2>
+                    <p>
+                        <i>SQL Database Programming</i>.
+                        A Database for monitoring the basic operations of Heating Plant.
+                    </p>
+                    <br />
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/fajni/Oracle_Database_Project'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container zoom">
+                    <div class="article-container">
+                        <img src="./assets/dotnet.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">To Do</h2>
+                    <p>
+                        Simple desktop application made in <i>.NET 4.8 Framework</i> using Windows Forms.
+                    </p>
+                    <br />
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/fajni/ToDo-simple'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container zoom">
+                    <div class="article-container">
+                        <img src="./assets/androidstudio.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Transaction Tracking</h2>
+                    <p>
+                        <i>Kotlin & Firebase</i> project. Android application to track your transactions.
+                    </p>
+                    <br />
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/fajni/Transaction-Tracking'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info-upper-container zoom">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+                <p><a href="mailto:veljko.fajnisevic.mes@gmail.com">veljko.fajnisevic.mes@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/instagram.png" alt="Instagram icon" class="icon contact-icon" />
+                <p><a href="https://www.instagram.com/fajnii/">Instagram</a></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Veljko Fajnisevic. All Rights Reserved</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

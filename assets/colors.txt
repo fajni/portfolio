@@ -1,0 +1,7 @@
+background: background: rgb(0, 51, 41); /*HEX: #003329*/
+
+other: 52,147,128
+
+text: 183, 183, 183
+
+button: 32, 102, 88
