@@ -27,3 +27,8 @@ window.addEventListener('scroll', function () {
     tree.style.top = value * 0.75 + 'px';
     text.style.top = value * -0.5 + 'px';
 });
+
+function openFiles() {
+    window.open('./assets/resume.pdf', '_blank');
+    window.open('./assets/resume_srb.pdf', '_blank');
+}
