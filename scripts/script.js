@@ -19,13 +19,13 @@ let text = document.getElementById('animation');
 
 window.addEventListener('scroll', function () {
     let value = window.scrollY;
-    img1.style.top = value * 0.9 + 'px';
-    img2.style.top = value * 0.75 + 'px';
-    img3.style.top = value * 0.55 + 'px';
-    img4.style.top = value * 0.95 + 'px';
-    img5.style.top = value * 0.85 + 'px';
-    tree.style.top = value * 0.75 + 'px';
-    text.style.top = value * -0.5 + 'px';
+    img1.style.top = value * 1 + 'px';
+    img2.style.top = value * 0.95 + 'px';
+    img3.style.top = value * 0.7 + 'px';
+    img4.style.top = value * 1 + 'px';
+    img5.style.top = value * 1 + 'px';
+    tree.style.top = value * 0.9 + 'px';
+    text.style.top = value * -0.9 + 'px';
 });
 
 function openFiles() {

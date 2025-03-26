@@ -7,10 +7,4 @@ Personal website built using only HTML &amp; CSS.
 
 <hr/>
 
-<h2 align="center">Mobile Preview</h2>
-
-![Site](./mobile.gif)
-
-<hr/>
-
 Note: _This project & site will be deleted in the near feature, because I'm not happy with it! Oh, btw site is not fully responsive..._

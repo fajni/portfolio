@@ -101,7 +101,7 @@
     }
 
     #profile {
-        height: 83vh;
+        height: 13vh;
         margin-bottom: 0;
     }
 
@@ -166,8 +166,12 @@
     }
 
     #scene{
-        margin-top: 180px;
-        padding-bottom: 90px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .image {
+        display: none;
     }
 
     .section__text{
