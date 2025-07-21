@@ -7,4 +7,4 @@ Personal website built using only HTML &amp; CSS.
 
 <hr/>
 
-Note: _This project & site will be deleted in the near feature, because I'm not happy with it! Oh, btw site is not fully responsive..._
+Link: fajni.github.io/portfolio/
