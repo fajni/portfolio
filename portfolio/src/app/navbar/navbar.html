@@ -1,0 +1,30 @@
+<nav id="desktop-nav">
+    <div class="logo" #logo>Veljko Fajnisevic</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./posts.html">Posts</a></li>
+        </ul>
+    </div>
+</nav>
+
+<nav id="hamburger-nav">
+    <div class="logo" #logo>Veljko Fajnisevic</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" (click)="toggleMenu()" #hamburgerIcon>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links" #menuLinks>
+            <li><a href="#about" (click)="toggleMenu()">About</a></li>
+            <li><a href="#experience" (click)="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" (click)="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" (click)="toggleMenu()">Contact</a></li>
+            <li><a href="./posts.html" (click)="toggleMenu()">Posts</a></li>
+        </div>
+    </div>
+</nav>

@@ -1,10 +1,5 @@
-# My Simple Portfolio Website
-Personal website built using only HTML &amp; CSS. 
+# Angular Portfolio
 
-<h2 align="center">Site Preview</h2>
+Personal website build in Angular.
 
-![Site](./site.gif)
-
-<hr/>
-
-Note: _This project & site will be deleted in the near feature, because I'm not happy with it! Oh, btw site is not fully responsive..._
+Current link: <a href="https://fajni-portfolio-website.web.app/">https://fajni-portfolio-website.web.app/</a>
